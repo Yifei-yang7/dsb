@@ -2,11 +2,11 @@ import os
 import subprocess
 import shutil
 
-bin_dir = r'D:\code\v2.11.0rc2\tools'
-bin_path = os.path.join(bin_dir, 'dsdgen.exe')
+bin_dir = "/home/ubuntu/dsb/code/tools"
+bin_path = os.path.join(bin_dir, 'dsdgen')
 
-scale = 10
-file_dir = # directory of database files
+scale = 1
+file_dir = "/home/ubuntu/dsb_data" # directory of database files
 
 if os.path.exists(file_dir):
 	shutil.rmtree(file_dir)
